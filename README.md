@@ -1,3 +1,3 @@
 # Calculadora
 
-https://joaovitor73.github.io/Calculadora/
+joaovitor73.github.io/Calculadora
