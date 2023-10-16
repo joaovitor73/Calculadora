@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style/style.css"/>
+</head>
+<body>
+    <section class="container">
+        <h1>Calculadora</h1>
+        <input class="resultado" type="text" id="visor" readonly value="0">
+        <input type="button" onclick="limpar()" value="C"></input>  
+        <input type="button" onclick="remover()"value="<"></input>  
+        <input type="button" value="/" onclick="acumular(this)"></input>  
+        <input type="button" value="X" onclick="acumular(this)"></input>  
+
+        <input type="button" onclick="acumular(this)" value="7"></input>  
+        <input type="button" onclick="acumular(this)" value="8"></input>  
+        <input type="button" onclick="acumular(this)" value="9"></input>  
+        <input type="button" value="-" onclick="acumular(this)"></input>  
+
+        <input type="button" onclick="acumular(this)" value="4"></input>  
+        <input type="button" onclick="acumular(this)" value="5"></input>  
+        <input type="button" onclick="acumular(this)" value="6"></input>  
+        <input type="button" value="+" onclick="acumular(this)"></input>  
+
+        <input type="button" onclick="acumular(this)" value="1"></input>  
+        <input type="button" onclick="acumular(this)" value="2"></input>  
+        <input type="button" onclick="acumular(this)" value="3"></input>  
+        <input type="button" value="." onclick="acumular(this)" ></input> 
+
+        <input type="button" onclick="acumular(this)" class="maior" value="0"></input> 
+        <input type="button" class="maior" value="=" onclick="guardarSegundoOperando()"></input>    
+
+
+    </section>
+    <script src="script/script.js"></script>
+</body>
+</html>
